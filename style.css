@@ -101,3 +101,72 @@ navigation li {
     color: #ff9000;
 }
 
+
+/*************************************************************************************************/
+/***********************************MY PORTFOLIO*******************************************/
+/* centering the section */
+.section-portfolio {
+    margin: auto;
+    margin-bottom: 21px;
+    
+
+}
+
+.header-portfolio {
+    margin-bottom: 0;
+}
+
+/* Using grid to make more responsive */
+.project-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;    
+}
+
+.cards {
+    padding-top: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.cards img {
+    width: 100%;
+    overflow: hidden;
+
+    border-radius: 12px 12px 0 0 ;
+}
+
+.cards p {
+    background-color: #555;
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 0 0 12px 12px;
+}
+
+/* Decorating buttons */
+.button {
+    width: 126px;
+    height: 40px;
+    padding: 9px;
+    font-size: 16px;
+    border-radius: 18px;
+    background-color: #ffa500 ;
+    border: none;
+
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+/* changing the state of button */
+.button:hover {
+    width:150px ;
+    background-color: #ffa800;
+    color: rgb(240, 240, 240);
+    
+    transform: 1.2;
+    border: 1px solid #999;
+}
+
