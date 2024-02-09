@@ -13,3 +13,35 @@ h3 {
 .g-width {
     width: 80%;
 }
+
+.header {
+    margin: 16px auto;
+    flex-direction: column;
+
+    margin-top: 12px;
+}
+
+/* making header with two colors */
+.header-main span {
+    color: #ff9000;
+}
+
+.header-aboutme {
+    color: #ff9000;
+}
+
+/* decorating links */
+
+.navigation {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+
+    margin-top: 12px;
+    padding: 20px;
+    background-color: #555;
+    border-radius: 12px;
+    
+    width: 100%;
+}
