@@ -68,3 +68,36 @@ navigation li {
     color: #cac9de;
 }
 
+/*************************************************************************************************/
+/***********************************ABOUT ME*******************************************/
+.section-aboutme {
+    margin: auto;
+    
+    text-align: center ;
+    margin-bottom: 32px;
+
+}
+
+.section-aboutme img {
+    width: 40%;
+
+    height: 20%;
+    margin-bottom: 12px;
+    
+    object-fit: cover;
+}
+
+/* decorating the paragraph */
+.section-aboutme p {
+    text-align: left;
+    font-size: 16px;
+
+    padding: 30px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-aboutme p span {
+    color: #ff9000;
+}
+
