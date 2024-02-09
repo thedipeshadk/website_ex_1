@@ -6,3 +6,10 @@
 body {
     font-family: sans-serif;
 }
+h3 {
+    color: #ff9000;
+}
+
+.g-width {
+    width: 80%;
+}
