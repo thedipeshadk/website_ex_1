@@ -45,3 +45,26 @@ h3 {
     
     width: 100%;
 }
+
+navigation li {
+    list-style: none; 
+      
+}
+
+/* using pseudocode of links and styling for different states */
+.link:link,
+.link:visited {
+    text-decoration: none; 
+    color: #fff; 
+    color:  #ff9000;
+
+    font-size: 22px;
+
+    transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+    color: #cac9de;
+}
+
